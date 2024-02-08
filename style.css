@@ -1,0 +1,56 @@
+/* No margin and padding for default */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Configure .header*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    border: 3px solid black; /* For tests */
+}
+
+/* Links without decoration */
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* Configure links */
+
+ul{
+    display: flex;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.start-page{
+    border: 3px solid chocolate;
+    display: flex;
+}
+
+.text-and-button{
+    flex-grow: 1;
+    width: 50%;
+    border: 3px solid chartreuse ;
+}
+
+.image{
+    flex-shrink: 0;
+    flex-grow: 1;
+    width: 50%;
+    border: 3px solid peru;
+}
+
