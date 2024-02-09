@@ -53,6 +53,9 @@ li{
 
 .information > h2{
     color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px;
 }
 /* I NEED TO CONFIGURE THE INFORMATION */
 
@@ -67,34 +70,11 @@ li{
     font-style: italic;
 }
 
-.quote-author{
-    
-}
+/* I NEED TO FINISH */
 
+/* Structure and background colors */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Configure .header*/
-
-/* .header{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -103,25 +83,12 @@ li{
     background-color: #1f2937;
 }
 
-p, a{
-    text-decoration: none;
-
-}
-
-li{
-    list-style: none;
-}
 ul{
     display: flex;
     gap: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-} */
-
-
-/* h1, h2{
-    color: #f9faf8;
 }
 
 .start-page{
@@ -145,7 +112,48 @@ ul{
     align-items: center;
 }
 
-.information > p{
-    color: #1f2937;
+.information{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
- */ 
+
+.cubes{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cubes > div{
+    border: 5px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
