@@ -6,64 +6,128 @@
     font-family: Roboto;
 }
 
-.roboto-regular {
+/* Fonts */
+
+  .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
 
-/* Configure .header*/
+/* Configure fonts and colors */
 
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px;
-    align-items: center;
-    background-color: #1f2937;
+.header > h2{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header > ul > li > a{
+    color: #e5e7eb;
 }
 
 /* Links without decoration */
 
-p, a{
+a{
     text-decoration: none;
-    color: #e5e7eb;
+
 }
 
 li{
     list-style: none;
 }
 
-/* Configure links */
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
 
+.subtitle{
+    color: #e5e7eb;
+}
+
+/* I NEED TO CONFIGURE THE BUTTONS */
+
+
+/* I NEED TO CONFIGURE  THE PLACEHOLDER*/
+
+.information > h2{
+    color: #1f2937;
+}
+/* I NEED TO CONFIGURE THE INFORMATION */
+
+.information p{
+    color: #e5e7eb;
+}
+
+.quote-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Configure .header*/
+
+/* .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 200px;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+p, a{
+    text-decoration: none;
+
+}
+
+li{
+    list-style: none;
+}
 ul{
     display: flex;
     gap: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+} */
 
-h1, h2{
+
+/* h1, h2{
     color: #f9faf8;
 }
 
 .start-page{
     display: flex;
     background-color: #1f2937;
+    padding: 125px 200px;
 }
 
 .text-and-button{
@@ -81,3 +145,7 @@ h1, h2{
     align-items: center;
 }
 
+.information > p{
+    color: #1f2937;
+}
+ */ 
